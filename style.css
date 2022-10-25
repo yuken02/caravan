@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 
-header, nav, main-visual, footer {
+header, nav, h2, .main-visual, footer {
   font-family: Chalkduster, "Bradly Hand", Courier, "Segoe Point", sans-serif;
 }
 
@@ -34,15 +34,15 @@ header {
   margin-left: 20px;
 }
 
-header.heading {
+header .heading {
   font-size: 32px;
 }
 
 /* navigation */
 .nav-list {
   text-align: center;
-padding: 10px 0;
-margin: 0 auto;
+  padding: 10px 0;
+  margin: 0 auto;
 }
 
 .nav-list-item {
